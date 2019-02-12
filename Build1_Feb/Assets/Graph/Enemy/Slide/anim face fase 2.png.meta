@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cac668e7c39943e46aa5b4eccdd6c3bc
+guid: 6f2baf744030719429e8ba2d7707bee8
 TextureImporter:
   fileIDToRecycleName:
     21300000: anim face fase 2_0
@@ -100,7 +100,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53a515a2c733d4742bb23a4638d21047
+      spriteID: 4a26f9b0abb32154fa24fc29667eb36e
       vertices: []
       indices: 
       edges: []
@@ -120,7 +120,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5f27ac5beb86e943bcd68f70f30c3b7
+      spriteID: 2bd661ffdca49f043ae0b62ef4b451e7
       vertices: []
       indices: 
       edges: []
@@ -128,7 +128,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bd925f7648267684e9ccc622175e505a
+    spriteID: 6422ca82a1d5f334c9a1773ec3174ce9
     vertices: []
     indices: 
     edges: []

@@ -1,9 +1,11 @@
 fileFormatVersion: 2
-guid: cac668e7c39943e46aa5b4eccdd6c3bc
+guid: 5da9873b6dcc05f4ba7ce5045d234e38
 TextureImporter:
   fileIDToRecycleName:
-    21300000: anim face fase 2_0
-    21300002: anim face fase 2_1
+    21300000: anim face fase 3_0
+    21300002: anim face fase 3_1
+    21300004: anim face fase 3_2
+    21300006: anim face fase 3_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -86,13 +88,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: anim face fase 2_0
+      name: anim face fase 3_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 50.5
-        height: 22
+        width: 52
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,19 +102,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53a515a2c733d4742bb23a4638d21047
+      spriteID: 5eb06ce41cdde044fba299abcd9da2eb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim face fase 2_1
+      name: anim face fase 3_1
       rect:
         serializedVersion: 2
-        x: 50
+        x: 52
         y: 0
-        width: 50.5
-        height: 22
+        width: 52
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +122,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5f27ac5beb86e943bcd68f70f30c3b7
+      spriteID: 16a0da14c3e74b54aadc95c9323e3b47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim face fase 3_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f908c7869aa197b49bda1ef2ca58c02d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim face fase 3_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca8c50dcd14c834193c3069e30e00da
       vertices: []
       indices: 
       edges: []
@@ -128,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bd925f7648267684e9ccc622175e505a
+    spriteID: f0553d937be993a4db8861cab22c53e2
     vertices: []
     indices: 
     edges: []
