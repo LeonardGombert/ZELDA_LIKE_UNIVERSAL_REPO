@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: ccd4568e343a1cc44afb93f489a6f1be
+  productGUID: b51f60cfc0616af4f89f20aad22fc519
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -586,9 +586,9 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 6eadd099-4d0a-4620-b318-0096e24ce5c6
+  cloudProjectId: 5698e524-2aae-4cc8-a1c2-514018b0cba4
   framebufferDepthMemorylessMode: 0
-  projectName: ZeldaLike_Milestone_2 (1)
+  projectName: ZeldaLike_Milestone_2 (2)
   organizationId: epoc4oftime
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
