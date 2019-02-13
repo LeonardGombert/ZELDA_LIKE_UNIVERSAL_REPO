@@ -158,7 +158,7 @@ public class PlayerTileMovement : MonoBehaviour
 
             RaycastHit2D hit = Physics2D.Raycast(transform.position, mousePosition);
 
-            if (hit.collider != null)
+            if (hit.collider.tag == "test")
             {
                 targetedObject = hit.collider.gameObject;
                 Debug.Log("I have hit an object called " + targetedObject.name);
