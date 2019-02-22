@@ -47,7 +47,20 @@ public class GridScript : MonoBehaviour
         cell.transform.localPosition = position;
         cell.coordinates = CellCoords.FromCoordinates (x, z);
 
-        Text label = Instantiate<Text>(cellLabelPrefab);
+        if (x > 0)
+        {
+            cell.SetNeighbor(CellDirection.W, cells[i - 1]);
+        }
+
+        if (z > 0)
+        {
+            //if ((z & 1) == 0)
+            
+                cell.SetNeighbor(CellDirection.S, cells[i - width]);
+            
+        }
+
+            Text label = Instantiate<Text>(cellLabelPrefab);
         label.rectTransform.SetParent(gridCanvas.transform, false);
         label.rectTransform.anchoredPosition =
             new Vector2(position.x, position.z);

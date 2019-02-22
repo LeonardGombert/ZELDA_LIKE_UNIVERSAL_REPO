@@ -94,6 +94,11 @@ MonoBehaviour:
   coordinates:
     x: 0
     z: 0
+  neighbors:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!65 &7925560171883577245
 BoxCollider:
   m_ObjectHideFlags: 0
