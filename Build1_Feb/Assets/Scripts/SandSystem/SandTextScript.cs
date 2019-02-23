@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SandTextScript : MonoBehaviour
 {
@@ -12,10 +13,12 @@ public class SandTextScript : MonoBehaviour
     {
         text = GetComponent<Text>();
     }
-
-    void Update ()
+    void Update()
     {
         text.text = sandAmount.ToString();
+        if (sandAmount == -2)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
     }
-
 }

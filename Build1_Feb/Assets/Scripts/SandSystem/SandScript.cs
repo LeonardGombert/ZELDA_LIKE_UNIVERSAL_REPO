@@ -8,6 +8,5 @@ public class SandScript : MonoBehaviour
     {
         SandTextScript.sandAmount += 1;
         Destroy(gameObject);
-
     }
 }
