@@ -38,9 +38,9 @@ public class GridScript : MonoBehaviour
     void CreateCell(int x, int z, int i)
     {
         Vector3 position;
-        position.x = x * 10f;
+        position.x = x;
         position.y = 0f;
-        position.z = z * 10f;
+        position.z = z;
 
         SquareCellScript cell = cells[i] = Instantiate<SquareCellScript>(cellPrefab);
         cell.transform.SetParent(transform, false);
